@@ -1,0 +1,28 @@
+{
+  "name": "york8/poa-static",
+  "description": "Poa static file serving middleware.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "poa",
+    "poa-middleware",
+    "koa",
+    "koa-static",
+    "react-php"
+  ],
+  "authors": [
+    {
+      "name": "York",
+      "email": "lianyupeng1988@126.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "york8/poa": "~0.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "York8\\POA\\StaticMiddleware\\": "src"
+    }
+  }
+}
